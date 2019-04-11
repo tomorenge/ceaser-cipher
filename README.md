@@ -1,22 +1,21 @@
-##
-.Ceaser-cipher
+#Ceaser cipher
 
 A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.
-#
-Technologies used
+
+##Technologies used
 
 Java
-#
-Requirements
+
+##Requirements
 
 Java JDK
-#
-Installation
+
+##Installation
 
 Maven users
 Gradle Groovy DSL
-#
-Program testing
+
+##Program testing
 
 The program was tested with jUnit tests
 
