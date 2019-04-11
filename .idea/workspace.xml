@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c17648-fcb3-450f-8310-58296f7d5506" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DecryptTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CeaserCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CeaserCipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Decrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Decrypt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CeaserCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CeaserCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Decrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Decrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="168" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -49,26 +43,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="315">
+                <caret line="21" selection-start-line="21" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -76,17 +82,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CeaserCipherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +110,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -112,11 +123,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/ceaser-cipherTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CeaserCipherTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/CeaserCipher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/License" />
+        <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -132,6 +145,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ceaser-cipher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ceaser-cipher" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="ceaser-cipher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ceaser-cipher" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,17 +187,18 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="ceaser-cipher" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="ceaser-cipher" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="ceaser-cipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ceaser-cipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ceaser-cipher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ceaser-cipher" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,13 +234,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Gradle.DecryptTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="ceaser-cipher.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="DecryptTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DecryptTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Tests in 'ceaser-cipher.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -233,6 +284,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DecryptTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.Tests in 'ceaser-cipher.test'" />
       </list>
@@ -252,27 +304,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 33m 44s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 44m 07s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 44m 50s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 49m 25s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 50m 01s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 53m 33s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 53m 32s.xml">
-      <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 14h 57m 19s.xml">
       <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -282,12 +313,32 @@
     <history-entry file="Tests_in_'ceaser-cipher_test' - 2019.04.08 at 15h 20m 48s.xml">
       <configuration name="Tests in 'ceaser-cipher.test'" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 11m 36s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 11m 58s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 12m 24s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 13m 00s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 13m 42s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 17m 46s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest - 2019.04.11 at 10h 19m 05s.xml">
+      <configuration name="DecryptTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28092578" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3048683" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,7 +352,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32142857" />
@@ -314,14 +365,35 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32960895" />
     </layout>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ceaser_cipher$App.ic" NAME="App Coverage Results" MODIFIED="1554883492899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ceaser_cipher$App.ic" NAME="App Coverage Results" MODIFIED="1554908459389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/ceaser-cipher.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ceaser-cipherTest.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CeaserCipherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CeaserCipher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -329,41 +401,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CeaserCipherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
