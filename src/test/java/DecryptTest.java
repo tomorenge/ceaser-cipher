@@ -7,7 +7,7 @@ public class DecryptTest {
     @Test
     public void CeaserCipher_testingEncryptingmethod() {
         Decrypt CeaserCipher = new  Decrypt();
-        assertEquals("grj", CeaserCipher.decrypt("grj", 1));
+        assertEquals("fqi", CeaserCipher.decrypt("grj", 1));
     }
 
 }
