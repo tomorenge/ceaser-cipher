@@ -1,14 +1,15 @@
-#Ceaser cipher
+#Ceaser  cipher
 
-A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key, down the alphabet.
+A Caesar cipher is a type of substitution in which each letter is shifted a certain number of places also known as a key or shift, down the alphabet.
 
-##Technologies used
+##Technologies used  
 
 Java
 
 ##Requirements
 
 Java JDK
+
 
 ##Installation
 
