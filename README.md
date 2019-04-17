@@ -21,3 +21,5 @@ Gradle Groovy DSL
 The program was tested with jUnit tests
 
 
+## Licence 
+Licenced under the [MIT Licence](https://github.com/tomorenge/ceaser-cipher/blob/master/LICENSE)
